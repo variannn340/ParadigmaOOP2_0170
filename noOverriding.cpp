@@ -8,5 +8,12 @@ public:
     {
         cout << "Hello saya function dari base class";
     }
-
+};
+class deprivedClass : public baseClass
+{
+public:
+    void perkenalan1()
+    {
+        cout << "Hallo saya function dari deprived Class";
+    }
 };
