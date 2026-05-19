@@ -17,3 +17,11 @@ public:
         cout << "Hallo saya function dari deprived Class";
     }
 };
+
+int main()
+{
+    deprivedClass a;
+    a.perkenalan1();
+
+    return 0;
+}
