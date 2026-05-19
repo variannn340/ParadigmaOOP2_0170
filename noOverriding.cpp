@@ -3,5 +3,10 @@ using namespace std;
 
 class baseClass
 {
+public:
+    virtual void perkenalan() final
+    {
+        cout << "Hello saya function dari base class";
+    }
 
 };
