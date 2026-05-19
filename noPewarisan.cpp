@@ -19,3 +19,9 @@ public:
         cout << "Hallo saya Function dari deprived class";
     }
 };
+int main() {
+    deprivedClass a;
+    a.perkenalan();
+
+    return 0;
+}
