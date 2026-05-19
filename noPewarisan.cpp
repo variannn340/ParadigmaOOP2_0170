@@ -13,3 +13,9 @@ public:
         cout << "Hallo saya Function dari base class";
     }
 };
+class deprivedClass : public baseClass1 {
+public:
+    void perkenalan() {
+        cout << "Hallo saya Function dari deprived class";
+    }
+};
